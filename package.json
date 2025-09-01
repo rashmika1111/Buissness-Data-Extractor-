@@ -1,0 +1,27 @@
+{
+  "name": "google-maps-scraper",
+  "version": "1.0.0",
+  "description": "A Google Maps scraper for auto repair shops using Puppeteer and Cheerio",
+  "main": "googleMaps.js",
+  "type": "module",
+  "scripts": {
+    "start": "node googleMaps.js",
+    "dev": "node --watch googleMaps.js",
+    "search": "node googleMaps.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^119.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^24.18.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "keywords": [
+    "puppeteer",
+    "cheerio",
+    "scraping",
+    "google-maps"
+  ],
+  "author": "",
+  "license": "MIT"
+}
